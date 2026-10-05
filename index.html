@@ -894,27 +894,24 @@
         <span class="tag primary">실전 투자 독후감</span>
         <span class="tag">하워드 막스 (Howard Marks)</span>
         <span class="tag">부자회사원 요약 해설</span>
-        <span class="tag">서울 핵심지 실거주 매수 경험</span>
+        <span class="tag">실전 투자자 관점</span>
       </div>
       <h1>좋은 자산이 아니라,<br><span style="color: var(--accent);">자산을 잘(싸게) 사는 것</span></h1>
       <p class="hero-lead">
-        2년 전 모두가 폭락을 외칠 때 서울 핵심지 소형 아파트를 실거주로 매수했던 경험과,
-        현재 부동산·자산 시장의 온도가 <strong>"가슴과 머리 사이"</strong>에 와 있음을 느끼며 되새기는
+        자산 시장의 온도가 <strong>"가슴과 머리 사이"</strong>에 와 있음을 관찰하며 되새기는, 실전 투자자를 위한
         하워드 막스의 20대 핵심 투자 철학.
       </p>
 
-      <!-- Personal Context Story Card -->
-      <div class="story-card">
-        <div class="story-card-title">
-          <span>🏠</span> 나의 실전 케이스: 2년 전 서울 핵심지 소형 아파트 실거주 매수의 기억
+      <!-- Investor Perspective Card -->
+      <div class="story-card" style="border-left: 4px solid var(--accent); background: linear-gradient(135deg, rgba(30,41,59,0.7), rgba(15,23,42,0.85));">
+        <div class="story-card-title" style="color: #60a5fa; font-size: 1.1rem;">
+          <span>⚖️</span> 투자자의 핵심 원칙: "세상에 무위험 선택지란 없다"
         </div>
-        <div class="story-card-text">
-          금리가 치솟고 매수 심리가 얼어붙었을 때, 주변은 "소형 평수를 왜 그 돈 주고 사냐, 나중에 팔리지도 않는다"며 뜯어말렸습니다. 
-          하지만 그것은 전형적인 <strong>1차적 사고</strong>였습니다. 
-          1~2인 가구의 송파 핵심 입지 전월세 수요, 하락장 공포로 인해 가격에 지나치게 반영된 비관론(안전마진), 
-          그리고 실거주로서 시계추가 반대로 움직일 때까지 버틸 수 있는 '강한 손'의 위치를 고려한 것이 <strong>2차적 사고</strong>였습니다.<br>
-          세상에 '무위험 선택지'는 없습니다. 무주택은 인플레이션과 영구 소외의 리스크를 지고, 유주택은 가격 변동과 이자 부담의 리스크를 집니다. 
-          중요한 것은 <strong>"내가 감당할 수 있는 리스크를 제값보다 싸게 샀는가"</strong>입니다.
+        <div class="story-card-text" style="font-size: 0.95rem; line-height: 1.7; color: #cbd5e1;">
+          시장에서 무주택자는 인플레이션과 자산 영구 소외의 리스크를 지고, 유주택자는 가격 변동성과 자본 부담의 리스크를 집니다. 
+          따라서 투자의 본질은 위험을 완벽히 피하는 것이 아니라, <strong>"어떤 위험을 얼마의 가격에 감수할 것인가"</strong>를 선택하는 것입니다.<br>
+          하워드 막스가 강조하듯, 단순히 장밋빛 미래를 예측하는 1차적 사고를 넘어 
+          <strong>"지금 시장 가격에 대중의 낙관과 비관이 이미 얼마나 반영되어 있는가"</strong>를 읽어내는 2차적 사고만이 장기적인 생존과 복리를 만듭니다.
         </div>
       </div>
     </section>
@@ -941,15 +938,33 @@
           </div>
         </div>
 
-        <div style="margin-bottom: 20px;">
-          <label class="input-label" for="presetSelect">상황 / 시장의 흔한 생각 선택하기</label>
-          <select id="presetSelect" onchange="updateSecondLevelThinking()">
-            <option value="jamsil">① 부동산: "핵심지 소형 평수? 평당 단가만 비싸서 안 사, 사지 마."</option>
-            <option value="ratecut">② 거시경제: "금리 인하 시작되면 부동산 무조건 다시 폭등하니 지금이라도 영끌해!"</option>
-            <option value="ai">③ 주식: "AI 엔비디아는 매일 신고가에 최고 기업이니 사두면 무조건 돈 번다."</option>
-            <option value="crash">④ 비관론: "부동산 PF 터지고 인구 줄어드니 한국 집값은 이제 영원히 폭락한다."</option>
-            <option value="custom">⑤ 💡 직접 입력하기 (사용자 맞춤형 분석)</option>
-          </select>
+        <div style="margin-bottom: 24px; background: rgba(15, 23, 42, 0.6); padding: 20px; border-radius: 16px; border: 1px solid rgba(59, 130, 246, 0.3);">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+            <label for="presetSelect" style="font-size: 1.05rem; font-weight: 700; color: #ffffff; margin: 0; display: flex; align-items: center; gap: 8px;">
+              <span style="font-size: 1.25rem;">🔍</span> 분석할 시장의 생각 (시나리오 선택)
+            </label>
+            <span style="font-size: 0.8rem; color: #93c5fd; background: rgba(59,130,246,0.15); padding: 4px 10px; border-radius: 20px; font-weight: 600;">클릭 시 즉시 2차적 사고 분석</span>
+          </div>
+
+          <!-- 원클릭 빠른 선택 칩 버튼들 -->
+          <div class="preset-chips-container" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px;">
+            <button type="button" class="scenario-chip active" id="chip-realestate" onclick="selectScenario('realestate')" style="padding: 8px 14px; border-radius: 8px; border: 1px solid #3b82f6; background: #1e3a8a; color: #ffffff; font-weight: 600; font-size: 0.88rem; cursor: pointer; transition: all 0.2s;">🏢 부동산 불패론</button>
+            <button type="button" class="scenario-chip" id="chip-ratecut" onclick="selectScenario('ratecut')" style="padding: 8px 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(30,41,59,0.7); color: #cbd5e1; font-weight: 600; font-size: 0.88rem; cursor: pointer; transition: all 0.2s;">📉 금리 인하 영끌</button>
+            <button type="button" class="scenario-chip" id="chip-ai" onclick="selectScenario('ai')" style="padding: 8px 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(30,41,59,0.7); color: #cbd5e1; font-weight: 600; font-size: 0.88rem; cursor: pointer; transition: all 0.2s;">🤖 엔비디아 AI 환호</button>
+            <button type="button" class="scenario-chip" id="chip-crash" onclick="selectScenario('crash')" style="padding: 8px 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(30,41,59,0.7); color: #cbd5e1; font-weight: 600; font-size: 0.88rem; cursor: pointer; transition: all 0.2s;">💥 시장 영구 폭락론</button>
+            <button type="button" class="scenario-chip" id="chip-custom" onclick="selectScenario('custom')" style="padding: 8px 14px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(30,41,59,0.7); color: #cbd5e1; font-weight: 600; font-size: 0.88rem; cursor: pointer; transition: all 0.2s;">✍️ 직접 입력하기</button>
+          </div>
+
+          <!-- 큼직하고 선명한 커스텀 셀렉트 박스 -->
+          <div style="position: relative;">
+            <select id="presetSelect" onchange="onSelectChange()" style="width: 100%; padding: 14px 18px; font-size: 1rem; font-weight: 600; color: #ffffff; background: #0f172a; border: 2px solid #3b82f6; border-radius: 12px; box-shadow: 0 4px 16px rgba(59, 130, 246, 0.25); cursor: pointer; outline: none; appearance: auto;">
+              <option value="realestate" selected>🏢 ① 부동산: "서울 핵심지 아파트는 불패다, 무조건 지금이라도 사야 한다!"</option>
+              <option value="ratecut">📉 ② 거시경제: "금리 인하 시작되면 부동산 무조건 다시 폭등하니 지금이라도 영끌해!"</option>
+              <option value="ai">🤖 ③ 주식: "AI 엔비디아는 매일 신고가에 최고 기업이니 사두면 무조건 돈 번다."</option>
+              <option value="crash">💥 ④ 비관론: "부동산 PF 터지고 인구 줄어드니 한국 집값은 이제 영원히 폭락한다."</option>
+              <option value="custom">✍️ ⑤ 💡 직접 질문/생각 입력하기 (실시간 맞춤 분석)</option>
+            </select>
+          </div>
         </div>
 
         <div id="customInputWrap" style="display: none; margin-bottom: 20px;">
@@ -964,7 +979,7 @@
             <span class="matrix-tag red">1차적 사고 (First-Level)</span>
             <div class="matrix-content-title" id="firstLevelTitle">단순한 인과관계와 대중적 직관</div>
             <div class="matrix-content-body" id="firstLevelBody">
-              "소형 평수는 좁아서 가족 단위가 못 살고 환금성이 떨어진다. 하락장에선 소형부터 빠진다."
+              "서울 핵심지 아파트는 수요가 넘치고 불패다. 지금 안 사면 영원히 벼락거지 되니 무조건 영끌해야 한다."
             </div>
             <div class="matrix-quote" style="border-left-color: var(--rose);">
               ⚠️ <strong>1차적 한계:</strong> 남들과 똑같이 생각하고 명백해 보이는 것만 봅니다. 누구나 할 수 있는 생각으로는 초과 수익을 낼 수 없습니다.
@@ -1144,7 +1159,7 @@
             <button class="btn-copy-card" onclick="copyCardText(1)" title="1/ 카드 내용 복사">📋 복사</button>
           </div>
           <div class="review-body" id="card-text-1">
-            2년 전, 다들 부동산 끝났다며 공포에 떨 때 <strong>서울 핵심지 소형 아파트를 실거주로 샀다.</strong>
+            2년 전 부동산 하락기, 시장에 공포와 비관론이 팽배했을 때 <strong>실거주 목적으로 자산을 매수했던 경험이 있다.</strong>
           </div>
         </div>
         <div class="review-card" id="card-2">
@@ -1153,7 +1168,7 @@
             <button class="btn-copy-card" onclick="copyCardText(2)" title="2/ 카드 내용 복사">📋 복사</button>
           </div>
           <div class="review-body" id="card-text-2">
-            주변 사람 열에 아홉은 뜯어말렸다.<br>"그 좁은 평수를 왜 그 돈 주고 사냐?"<br>"대단지 소형 평수 사면 나중에 팔리지도 않는다."<br>"금리가 이렇게 높은데 집값 반토막 난다, 기다려라."
+            당시 대다수의 사람들은 "금리가 치솟고 집값이 반토막 날 텐데 지금 집을 왜 사냐"며 극도의 공포를 이야기했다.<br>하지만 하워드 막스가 말하듯, 대중이 공포에 질려 던질 때야말로 가격에 비관론이 가득 차 안전마진이 생기는 순간이었다.
           </div>
         </div>
         <div class="review-card" id="card-3">
@@ -1843,6 +1858,38 @@
       }
     };
 
+    
+    function selectScenario(val) {
+      const sel = document.getElementById('presetSelect');
+      if (sel) {
+        sel.value = val;
+        onSelectChange();
+      }
+    }
+
+    function onSelectChange() {
+      const sel = document.getElementById('presetSelect');
+      const val = sel.value;
+      
+      // 칩 버튼 스타일 업데이트
+      ['realestate', 'ratecut', 'ai', 'crash', 'custom'].forEach(id => {
+        const chip = document.getElementById('chip-' + id);
+        if (chip) {
+          if (id === val) {
+            chip.style.border = '1px solid #3b82f6';
+            chip.style.background = '#1e3a8a';
+            chip.style.color = '#ffffff';
+          } else {
+            chip.style.border = '1px solid rgba(255,255,255,0.15)';
+            chip.style.background = 'rgba(30,41,59,0.7)';
+            chip.style.color = '#cbd5e1';
+          }
+        }
+      });
+      
+      updateSecondLevelThinking();
+    }
+
     function updateSecondLevelThinking() {
       const select = document.getElementById('presetSelect');
       const customWrap = document.getElementById('customInputWrap');
@@ -2066,8 +2113,7 @@ ${cardText}`;
 2년 전, 다들 부동산 끝났다며 공포에 떨 때 서울 핵심지 소형 아파트를 실거주로 샀다.
 
 2/
-주변 사람 열에 아홉은 뜯어말렸다.
-"그 좁은 평수를 왜 그 돈 주고 사냐?"
+당시 대다수의 사람들은 "금리가 치솟고 집값이 반토막 날 텐데 지금 집을 왜 사냐"며 극도의 공포를 이야기했다.
 "대단지 소형 평수 사면 나중에 팔리지도 않는다."
 "금리가 이렇게 높은데 집값 반토막 난다, 기다려라."
 
